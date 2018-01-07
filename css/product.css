@@ -1,0 +1,236 @@
+/*
+* @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Date:   2017-12-31 19:30:21
+* @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Last Modified time: 2018-01-07 15:15:53
+*/
+@import url('base.css');
+/* 头部 */
+header{
+	width: 100%;
+	height: 163px;
+	background: #fff;
+}
+.neirong{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.n-left{
+	width: 430px;
+	height: 100px;
+	float: left;
+}
+.n-left img{
+	margin-top: 20px;
+}
+.n-right{
+	width: 290px;
+	height: 100px;
+	float: right;
+}
+.n-right img{
+	margin-top: 23px;
+}
+.daohang{
+	width: 100%;
+	height: 63px;
+	background: #f5f5f5;
+}
+.dh-center{
+	width: 1200px;
+	height: 63px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dh-center ul{
+	width: 1200px;
+	height: 63px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.dh-center li{
+	width: 240px;
+	height: 63px;
+	float: left;
+}
+.dh-center li a{
+	display: block;
+	text-align: center;
+	line-height: 63px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+.dh-center li:nth-child(2) a{
+	background: #07923b;
+	color: #fff;
+}
+.dh-center li:hover a{
+	background: #07923b;
+	color: #fff;
+}
+.floor{
+	width: 100%;
+	height: 586px;
+	background: #fff;
+}
+.first{
+	width: 1200px;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.first-left{
+	width: 830px;
+	height: 100%; 
+	float: left;
+	box-sizing: border-box;
+}
+
+.first-bot{
+	width: 100%;
+	height: 64px;
+	overflow: hidden;
+}
+.list{
+	margin-top: 7px;
+	height: 45px;
+	width: auto;
+	border: 1px dashed #999;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 10px;
+	line-height: 45px;
+	color: #00132b;
+	padding: 0 20px;
+}
+.first-right{
+	width: 320px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.first-right h1 em{
+	font-size: 60px;
+	color: red;
+	float: left;
+}
+.first-right h2{
+	font-size: 24px;
+	color: #333;
+	margin-left: 10px;
+	float: left;
+	margin-top: 35px;
+}
+.first-text{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.first-text span{
+	line-height: 40px;
+
+}
+.first-right input{
+	width: 260px;
+	height: 60px;
+	background: #fdcc05;
+	margin: 30px auto;
+	border: none;
+	font-weight: bold;
+}
+.first-right input:focus{
+	outline: none;
+}
+#floor2{
+	background: #f4f4f4;
+}
+.two{
+	width: 1200px;
+	height: 100%;
+	background:#f4f4f4;
+	margin: 0 auto;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.two-left{
+	width: 320px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.two-left h1 em{
+	font-size: 60px;
+	float: left;
+	color: red;
+}
+.two-left h2{
+	font-size: 24px;
+	color: #333;
+	margin-left: 10px;
+	float: left;
+	margin-top: 35px;
+}
+.first-text{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.first-text span{
+	line-height: 40px;
+
+}
+.two-left input{
+	width: 260px;
+	height: 60px;
+	background: #fdcc05;
+	margin: 30px auto;
+	border: none;
+	font-weight: bold;
+}
+.first-right input:focus{
+	outline: none;
+}
+.two-right{
+	width: 830px;
+	height: 100%; 
+	float: right;
+	box-sizing: border-box;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 60px;
+	background: #07923b;
+}
+.foot-nk{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.adress{
+	margin-left: 128px;
+	font-size: 20px;
+	color: #fff;
+	padding-right: 20px;
+	border-right: 1px solid #fff;
+	
+}
+.tel{
+	font-size: 20px;
+	color: #fff;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 1px solid #fff;
+}
+.peo{
+	font-size: 20px;
+	color: #fff;
+	padding-left: 20px;
+}
