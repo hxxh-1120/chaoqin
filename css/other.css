@@ -1,0 +1,563 @@
+/*
+* @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Date:   2018-01-10 09:05:20
+* @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
+* @Last Modified time: 2018-01-10 09:21:39
+*/
+@import url(base.css);
+
+/* produce */
+/* 头部 */
+header{
+	width: 100%;
+	height: 163px;
+	background: #fff;
+}
+.neirong{
+	width: 1200px;
+	height: 100px;
+	margin: 0 auto;
+}
+.n-left{
+	width: 430px;
+	height: 100px;
+	float: left;
+}
+.n-left img{
+	margin-top: 20px;
+}
+.n-right{
+	width: 290px;
+	height: 100px;
+	float: right;
+}
+.n-right img{
+	margin-top: 23px;
+}
+.daohang{
+	width: 100%;
+	height: 63px;
+	background: #f5f5f5;
+}
+.dh-center{
+	width: 1200px;
+	height: 63px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dh-center ul{
+	width: 1200px;
+	height: 63px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.dh-center li{
+	width: 240px;
+	height: 63px;
+	float: left;
+}
+.dh-center li a{
+	display: block;
+	text-align: center;
+	line-height: 63px;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+.daohang li a.active{
+	background: #07923b;
+	color: #fff;
+}
+.dh-center li:hover a{
+	background: #07923b;
+	color: #fff;
+}
+/* 楼层 */
+.floor{
+	width: 100%;
+	height: 586px;
+	background: #fff;
+}
+.first{
+	width: 1200px;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.first-left{
+	width: 830px;
+	height: 100%; 
+	float: left;
+	box-sizing: border-box;
+}
+
+.first-bot{
+	width: 100%;
+	height: 64px;
+	overflow: hidden;
+}
+.list{
+	margin-top: 7px;
+	height: 45px;
+	width: auto;
+	border: 1px dashed #999;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 10px;
+	line-height: 45px;
+	color: #00132b;
+	padding: 0 20px;
+}
+.first-right{
+	width: 320px;
+	height: 100%;
+	float: right;
+	overflow: hidden;
+}
+.first-right h1 em{
+	font-size: 60px;
+	color: red;
+	float: left;
+}
+.first-right h2{
+	font-size: 24px;
+	color: #333;
+	margin-left: 10px;
+	float: left;
+	margin-top: 35px;
+}
+.first-text{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.first-text span{
+	line-height: 40px;
+
+}
+.first-right input{
+	width: 260px;
+	height: 60px;
+	background: #fdcc05;
+	margin: 30px auto;
+	border: none;
+	font-weight: bold;
+}
+.first-right input:focus{
+	outline: none;
+}
+#floor2{
+	background: #f4f4f4;
+}
+.two{
+	width: 1200px;
+	height: 100%;
+	background:#f4f4f4;
+	margin: 0 auto;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.two-left{
+	width: 320px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.two-left h1 em{
+	font-size: 60px;
+	float: left;
+	color: red;
+}
+.two-left h2{
+	font-size: 24px;
+	color: #333;
+	margin-left: 10px;
+	float: left;
+	margin-top: 35px;
+}
+.first-text{
+	width: 100%;
+	height: auto;
+	margin-top: 100px;
+}
+.first-text span{
+	line-height: 40px;
+
+}
+.two-left input{
+	width: 260px;
+	height: 60px;
+	background: #fdcc05;
+	margin: 30px auto;
+	border: none;
+	font-weight: bold;
+}
+.first-right input:focus{
+	outline: none;
+}
+.two-right{
+	width: 830px;
+	height: 100%; 
+	float: right;
+	box-sizing: border-box;
+}
+
+
+/* trends */
+.banner5{
+	width: 100%;
+	height:220px;
+	background: url("../img/nbanner.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: auto auto;
+}
+.banner5 img{
+	width: 100%;
+}
+.news{
+	width: 100%;
+	height: 445px;
+}
+.news-nei{
+	width: 1200px;
+	height: 445px;
+	margin: 0 auto;
+	padding-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.news-list{
+	width: 590px;
+	height: 136px;
+	overflow: hidden;
+	border: 5px solid rgba(0, 0, 0, .0);
+	border-bottom: 1px dotted #000;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.news-list:hover{
+	border: 5px dashed #eaeaea;
+}
+.riqi{
+	width: 62px;
+	height: 67px;
+	background: #e9e9e9;
+	margin-top:35px;
+	overflow: hidden; 
+	float: left;
+}
+.riqi .day{
+	font-size: 24px;
+	color: #333;
+	margin-top: 5px;
+}
+.riqi span{
+	font-size: 14px;
+}
+
+.news p{
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+.nr{
+	height: auto;
+	width: 480px;
+	margin-top: 35px;
+	margin-left: 20px;
+	float: left;
+}
+.nr p{
+	margin-top: 10px;
+	text-align: left;
+}
+/* aboutus */
+/* banner */
+.banner1{
+	width: 100%;
+	height: auto;
+}
+.banner1 img{
+	width: 100%;
+}
+
+.chengxin{
+	width: 100%;
+	height: auto;
+}
+.chengxin-nei{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.chengxin-nei h1{
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+}
+.chengxin-nei span{
+	margin-top: 30px;
+	display: block;
+	color: #555;
+	line-height: 30px;
+}
+.cx-list{
+	width: 100%;
+	height: 300px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.list-neirong{
+	width: 300px;
+    height: 260px;
+}
+.list-neirong img{
+	width:150px;
+	height:150px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: block;
+}
+.list-neirong p{
+	text-align: center;
+	margin-top: 50px;
+	color: #555;
+	font-weight: bold;
+}
+.mubiao{
+	width: 100%;
+	height: 505px;
+	background: #f4f4f4;
+}
+.mubiao-nei{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.mubiao-left{
+	float: left;
+}
+.mubiao-left img{
+	height: 385px;
+}
+.mubiao-right{
+	height: 100%;
+	width: 550px;
+	float: right;
+}
+.mubiao-right h1{
+	margin-left: 30px;
+	font-size: 30px;
+}
+.mubiao-right p{
+	margin-top: 30px;
+	line-height: 30px;
+	margin:30px 30px;
+	color: #555;
+}
+.liucheng{
+	width: 100%;
+	height: 505px;
+}
+.liucheng-nei{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 60px 0;
+	box-sizing: border-box;
+}
+.lc-left{
+	height: 100%;
+	width: 550px;
+	float: left;
+}
+.lc-left h1{
+	margin-left: 30px;
+	font-size: 30px;
+}
+.lc-left p{
+	margin-top: 30px;
+	line-height: 30px;
+	margin:30px 30px;
+	color: #555;
+}
+.lc-right{
+	float: left;
+}
+.lc-right img{
+	height: 385px;
+}
+
+/* contact */
+/* 美女 */
+.girl{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.img img{
+	width: 100%;
+}
+.box{
+	width: 502px;
+	height: 285px;
+	position: absolute;
+	top: 42px;
+	left: 611px;
+}
+.box h1{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.box p{
+	font-size: 14px;
+	color: #333;
+	margin-left: 15px;
+	margin-top: 15px;
+
+}
+.tel1{
+	width: 502px;
+	height: auto;
+	margin-left: 15px;
+	margin-top: 15px;
+	display: flex;
+	align-items: baseline;
+}
+.tel1-left{
+	font-size: 14px;
+	color: #333;
+	float: left;
+
+}
+.tel1-right{
+	font-size: 24px;
+	color: red;
+	float: left;
+
+}
+.box h2{
+	font-size: 14px;
+	color: #333;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.box input{
+	width: 200px;
+	height: 40px;
+	margin-top: 15px;
+	margin-left: 15px;
+	background: #0070c0;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	border: none;
+}
+
+/* help */
+.help{
+	width: 100%;
+	height: 422px;
+}
+.help-nei{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.help-nei h1{
+	font-size: 38px;
+	color: red;
+	text-align: center;
+	margin-top: 65px;
+
+}
+.help-nei p{
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+	margin-top: 25px;
+
+
+}
+.help-list{
+	width: 100%;
+	height: 156px;
+	margin-top: 35px;
+}
+.help-list ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.help-list ul li{
+	height: 100%;
+	width: 273px;
+	border: 1px solid #d8d8d8;
+	cursor: pointer;
+	transition: all 1s;
+}
+.help-list ul li:hover{
+	transform: translate(-3px, -3px);
+	box-shadow: 2px 2px 20px 3px rgba(0, 0, 0, 0.2);
+}
+.help-list ul li img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.help-list ul li h3{
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+	margin-top: 8px;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 60px;
+	background: #07923b;
+}
+.foot-nk{
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.adress{
+	margin-left: 128px;
+	font-size: 20px;
+	color: #fff;
+	padding-right: 20px;
+	border-right: 1px solid #fff;
+	
+}
+.tel{
+	font-size: 20px;
+	color: #fff;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-right: 1px solid #fff;
+}
+.peo{
+	font-size: 20px;
+	color: #fff;
+	padding-left: 20px;
+}
