@@ -4,7 +4,6 @@
     console.log(daohang);
     daohang.forEach(function(ele,index){
         ele.onclick = function () {
-            console.log(1);
             for(var i=0;i<daohang.length;i++){
                 daohang[index].classList.add("active");
             }

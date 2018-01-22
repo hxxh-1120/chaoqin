@@ -2,7 +2,7 @@
 * @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
 * @Date:   2017-12-27 21:32:07
 * @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
-* @Last Modified time: 2018-01-09 16:27:14
+* @Last Modified time: 2018-01-22 10:04:21
 */
 /*banner*/
 //轮播图
@@ -150,4 +150,53 @@
             moveFn();
         }
     }
+}
+//客服
+{
+    let logo=document.querySelectorAll(".logo");
+    let wz=document.querySelectorAll(".wz");
+    let lg1=document.querySelector(".lg1");
+    let lg2=document.querySelector(".lg2");
+    let lg3=document.querySelector(".lg3");
+    logo.forEach(function(ele,index){
+        ele.onmouseover=function(){
+            wz[index].style.display="block";
+            wz[index].style.background="#07923b";
+
+        }
+        ele.onmouseout=function(){
+
+            wz[index].style.display="none";
+        }
+    })
+}
+//顶部隐藏
+{
+    let topBar=document.querySelector(".yincang");
+    onscroll=function(){
+        var st=document.documentElement.scrollTop;
+        if(st>550){
+            topBar.style.top="0";
+        }else{
+            topBar.style.top="-50px"
+        }
+    }
+}
+//toTop
+{
+    var toTop=document.querySelector(".totop");
+    toTop.onclick=function(){
+        var st=document.documentElement.scrollTop;
+        var speed=st*30/100;
+        var t=setInterval(function(){
+            st-=speed;
+            if(st<=0){
+                st=0;
+                clearInterval(t);
+            };
+            document.documentElement.scrollTop=st;
+            flag=false;
+
+        },30);
+    } 
 }

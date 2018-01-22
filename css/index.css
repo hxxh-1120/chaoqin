@@ -2,10 +2,56 @@
 * @Author: 李亲亲ლ(°◕‵ƹ′◕ლ)
 * @Date:   2017-12-25 21:08:09
 * @Last Modified by:   李亲亲ლ(°◕‵ƹ′◕ლ)
-* @Last Modified time: 2018-01-10 11:36:40
+* @Last Modified time: 2018-01-22 10:05:03
 */
 @import url('base.css');
-
+.yincang{
+	width: 100%;
+	height: 50px;
+	background: rgba(255,255,255, 0.8);
+	position: fixed;
+	top: -50px;
+	left: 0;
+	z-index: 999999999999;
+	transition: all 1s;
+}
+.yc-left{
+	width: 430px;
+	height: 50px;
+	float: left;
+}
+.yc-left img{
+	height: 50px;
+}
+.yc-right{
+	width: 900px;
+	height: auto;
+	float: left;
+}
+.yc-right ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.yc-right ul li{
+	height: 100%;
+	width: 180px;
+}
+.yc-right li a{
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+}
+.yc-right ul li:hover{
+	background: #07923b;
+	
+}
+.yc-right ul li a:hover{
+	color: #fff;
+}
 /* 头部 */
 header{
 	width: 100%;
@@ -512,4 +558,79 @@ footer{
 	font-size: 20px;
 	color: #fff;
 	padding-left: 20px;
+}
+.zxzx{
+	width:100px;
+	height:auto;
+	position:fixed;
+	right:0;
+	top:420px;
+	z-index: 99999;
+}
+.zxzx ul{
+	width:100px;
+	height:auto;
+}
+.zxzx ul li{
+	width: 100px;
+	height:38px;
+	margin-bottom: 1px;
+	overflow: hidden;
+}
+.zxzx ul li a{
+	display: block;
+	float:right;
+}
+.zxzx ul li a.logo{
+	width:40px;
+	height:38px;
+	transition: 0s;
+}
+.zxzx ul li a.lg1{
+	background: #918888 url("../img/kf1.png") no-repeat center center;
+}
+.zxzx ul li a.lg1:hover{
+	background:  #07923b url("../img/kf1.png") no-repeat center center;
+}
+.zxzx ul li a.lg2{
+	background: #918888 url("../img/kf2.png") no-repeat center center;
+}
+.zxzx ul li a.lg2:hover{
+	background:  #07923b url("../img/kf2.png") no-repeat center center;
+}
+.zxzx ul li a.lg3{
+	background: #918888 url("../img/kf3.png") no-repeat center center;
+}
+.zxzx ul li a.lg3:hover{
+	background:  #07923b url("../img/kf3.png") no-repeat center center;
+}
+.zxzx ul li a.wz{
+	display: none;
+	width:60px;
+	height:38px;
+	text-align: center;
+	color: #fff;
+	background: #d5d5d5;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 38px;
+
+}
+.titleright li a:hover{
+	color:#3eb4fa;
+}
+.titleright li a{
+	color:#333;
+}
+.titleright li:first-child a{
+	color:#e30077;
+}
+.totop{
+	width: 40px;
+	height:37px;
+	cursor: pointer;
+	position: fixed;
+    right: 0;
+    bottom: 70px;
+    background: #918888;
 }
